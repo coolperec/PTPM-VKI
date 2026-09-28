@@ -1,14 +1,10 @@
-# Виртуальное окружение
 venv/
-ENV/
-env/
-
-# Кэш компиляции Python (создается при запусках unittest)
-**/__pycache__/
-*.pyc
-*.pyo
-*.pyd
-
-# Локальные системные файлы операционных систем
+.venv/
+__pycache__/
+*.py[cod]
+.idea/
+.vscode/
 .DS_Store
 Thumbs.db
+*.log
+Logs/
